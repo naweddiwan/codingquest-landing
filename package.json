@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "next build",
+    "deploy": " NODE_ENV=production firebase deploy --only functions,hosting",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,6 +17,8 @@
     "@svgr/webpack": "^5.5.0",
     "css-in-js-media": "^2.0.1",
     "date-fns": "^2.24.0",
+    "firebase-admin": "^10.0.1",
+    "firebase-functions": "^3.16.0",
     "gray-matter": "^4.0.3",
     "lodash": "^4.17.21",
     "next": "11.1.3-canary.54",
