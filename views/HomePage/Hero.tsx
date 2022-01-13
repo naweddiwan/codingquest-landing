@@ -23,7 +23,7 @@ const QUICK_FACTS = [
   {
     imageUrl: '/quckfacts/asset-3.svg',
     title: 'Class Timings',
-    description: 'Mon to Sat (8:00am - 6:00pm)',
+    description: 'Weekends & Weekdays 9-11pm',
   },
   {
     imageUrl: '/quckfacts/asset-4.svg',
