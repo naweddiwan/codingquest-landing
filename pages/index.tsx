@@ -25,7 +25,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <title>{EnvVars.SITE_NAME}</title>
         <meta
           name="description"
-          content="Tempor nostrud velit fugiat nostrud duis incididunt Lorem deserunt est tempor aute dolor ad elit."
+          content="Complete Your Coding Quest and Land a Guaranteed Job of Rs. 5-30 LPA!"
         />
       </Head>
       <HomepageWrapper>
