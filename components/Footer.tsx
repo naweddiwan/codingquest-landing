@@ -1,6 +1,6 @@
 import NextLink from 'next/link';
 import NextImage from 'next/image';
-import { FacebookIcon, LinkedinIcon, TwitterIcon, InstapaperIcon } from 'react-share';
+import { FacebookIcon, LinkedinIcon, TwitterIcon } from 'react-share';
 import styled from 'styled-components';
 import Container from 'components/Container';
 import { media } from 'utils/media';
