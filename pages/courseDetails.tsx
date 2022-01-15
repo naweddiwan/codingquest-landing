@@ -80,8 +80,10 @@ export default function FeaturesPage() {
       <WhiteBackgroundContainer>
           <BasicSection imageUrl="/demo-illustration-1.svg" title="Course Description" overTitle="sit amet gogo">
             <p>
-            The Full Stack Development course at CodingQuest is designed to equip candidates with all the knowledge and practice needed to build real life web applications at scale. We don’t just prepare you for your dream job, we also help you become better Software Engineers.
-            We believe in learning by doing, hence each topic is augmented with quizzes and assignments.
+            The Full Stack Development course at CodingQuest enables you to reach your maximum potential and achieve your goal of becoming a Software Engineer who can build complex applications that scale.</p>
+            <p>Along with the job preparation we also impart the required skills to excel in your coding journey. Keeping all of that in mind the course is desgined in such a way that we build from the fundamentals and 
+            make our way to advance topics while having hands on practice. </p>
+            <p>To ensure continous and comprehensive learning regular tests, quizzes, assignments and hackathons will also be organized.
             {/* list items */}
             <ul>
                 <li>Fundamentals of Computer Science</li>

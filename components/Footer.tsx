@@ -1,5 +1,6 @@
 import NextLink from 'next/link';
-import { FacebookIcon, LinkedinIcon, TwitterIcon } from 'react-share';
+import NextImage from 'next/image';
+import { FacebookIcon, LinkedinIcon, TwitterIcon, InstapaperIcon } from 'react-share';
 import styled from 'styled-components';
 import Container from 'components/Container';
 import { media } from 'utils/media';
@@ -57,21 +58,26 @@ export default function Footer() {
         </ListContainer>
         <BottomBar>
           <ShareBar>
-            <NextLink href="https://www.twitter.com/codingquest" passHref>
-              <a>
+            <NextLink href="https://twitter.com/codingquest_in" passHref>
+              <a target="_blank">
                 <TwitterIcon size={50} round={true} />
               </a>
             </NextLink>
 
-            <NextLink href="https://www.facebook.com/codingquest" passHref>
-              <a>
+            {/* <NextLink href="https://www.facebook.com/codingquest" passHref>
+              <a target="_blank">
                 <FacebookIcon size={50} round={true} />
               </a>
-            </NextLink>
+            </NextLink> */}
 
-            <NextLink href="https://www.linkedin.com/in/coding-quest-55370122a/" passHref>
-              <a>
+            <NextLink href="https://www.linkedin.com/company/78395004/" passHref >
+              <a target="_blank">
                 <LinkedinIcon size={50} round={true} />
+              </a>
+            </NextLink>
+            <NextLink href="https://www.instagram.com/codingquest.in/" passHref>
+              <a target="_blank">
+                <NextImage src= {"/insta.svg"} height={50} width={50} />
               </a>
             </NextLink>
           </ShareBar>

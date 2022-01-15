@@ -19,7 +19,7 @@ export default function PricingTablesSection() {
         <PricingCard
           title="Post-Paid"
           description="No initial investment"
-          benefits={['Pay after getting placed', 'Pay 7.5% of Cash in hand salary', 'For 2 years', 'Max amount capped at 1 Lakh', 'No hidden fees']}
+          benefits={['Pay after getting placed', 'Pay 6% of Cash in hand salary', 'For 2 years', 'Max amount capped at ₹90K', 'No hidden fees']}
           isOutlined
         >
            ₹0<span></span>
